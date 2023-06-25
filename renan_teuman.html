@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renan Teuman</title>
+  <!-- meta -->
+  <meta name="Author" content="">
+  <meta name="Description" content="">
+  <meta name="Keywords" content="">
+  <!-- favicon -->
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Oxford_blue.png" type="image/x-icon">
+  <link rel="stylesheet" href="rtglobal.css">
+  <style>
+    #CVContent {
+      color: black;
+      width: 950px;
+      margin: 100px auto;
+      border: .5px solid black;
+      padding: 30px 32px 32px;
+      text-align: left;
+      position: absolute;
+      left: 400px;
+      top: -25px; 
+    }
+  </style>
+  <style>
+    #bioContent {
+      color: black;
+      width: 500px;
+      margin: 100px auto;
+      border: .5px solid black;
+      padding: 30px 32px 32px;
+      text-align: left;
+      position: absolute;
+      left: 400px;
+      top: -25px; 
+    }
+  </style>
+  <style>
+    #conContent {
+      color: black;
+      width: 350px;
+      margin: 100px auto;
+      border: .5px solid black;
+      padding: 30px 32px 32px;
+      text-align: left;
+      position: absolute;
+      left: 400px;
+      top: -25px; 
+    }
+  </style>
+    <style>
+      #dwaContent {
+        color: black;
+        width: 975px;
+        margin: 100px auto;
+        border: .5px solid black;
+        padding: 30px 32px 32px;
+        text-align: left;
+        position: absolute;
+        left: 400px;
+        top: -25px; 
+      }
+    </style>
+    
+    <script>
+      function toggleCV() {
+        var CVContent = document.getElementById("CVContent");
+        var bioContent = document.getElementById("bioContent");
+        var conContent = document.getElementById("conContent");
+        var dwaContent = document.getElementById("dwaContent");
+    
+        if (CVContent.style.display === "none") {
+          CVContent.style.display = "block";
+          bioContent.style.display = "none";
+          conContent.style.display = "none";
+          dwaContent.style.display = "none";
+        } else {
+          bioContent.style.display = "none";
+        }
+      }
+
+
+      function toggleBio() {
+        var CVContent = document.getElementById("CVContent");
+        var bioContent = document.getElementById("bioContent");
+        var conContent = document.getElementById("conContent");
+        var dwaContent = document.getElementById("dwaContent");
+    
+        if (bioContent.style.display === "none") {
+          bioContent.style.display = "block";
+          conContent.style.display = "none";
+          dwaContent.style.display = "none";
+          CVContent.style.display = "none";
+        } else {
+          bioContent.style.display = "none";
+        }
+      }
+    
+      function toggleContact() {
+        var CVContent = document.getElementById("CVContent");
+        var bioContent = document.getElementById("bioContent");
+        var conContent = document.getElementById("conContent");
+        var dwaContent = document.getElementById("dwaContent");
+    
+        if (conContent.style.display === "none") {
+          conContent.style.display = "block";
+          bioContent.style.display = "none";
+          dwaContent.style.display = "none";
+          CVContent.style.display = "none";
+        } else {
+          conContent.style.display = "none";
+        }
+      }
+    
+      function toggleDWA() {
+        var CVContent = document.getElementById("CVContent");
+        var bioContent = document.getElementById("bioContent");
+        var conContent = document.getElementById("conContent");
+        var dwaContent = document.getElementById("dwaContent");
+    
+        if (dwaContent.style.display === "none") {
+          dwaContent.style.display = "block";
+          bioContent.style.display = "none";
+          conContent.style.display = "none";
+          CVContent.style.display = "none";
+        } else {
+          dwaContent.style.display = "none";
+        }
+      }
+    </script>
+    
+
+
+
+</head>
+<body>
+  <div id="content">
+    <h2>Renan Teuman</h2>
+    <ul>
+    </li>
+    <li class="menu-item">
+      <a href="#" onclick="toggleCV()">CV</a>
+    </li>
+      <hr>
+      <li class="menu-item">
+        <a href="#" onclick="toggleBio()">///Bio</a>
+      </li>
+      <li class="menu-item">
+        <a href="#" onclick="toggleContact()">///Contact</a>
+      </li>
+      <hr>
+      <li class="menu-item">
+        <u><mark>Exhibitions</mark></u>
+        <br><br>
+        <ul>
+          <li class="menu-item">
+            <a href="#" onclick="toggleDWA()">Design Without Authority</a>
+          </li>
+        </ul>
+        <br>
+      </li>
+      <li class="menu-item">
+        <u><mark>Publications</mark></u>
+        <br><br>
+        <ul>
+          <li class="menu-item">
+            <a href="https://someothermag.com" target="_blank">someothermag</a>
+          </li>
+        </ul>
+        <br>
+      </li>
+      <li class="menu-item">
+        <u><mark>Architecture</mark></u>
+        <ul>
+          <br>
+          <li class="menu-item">
+            <a href="urlhere">Let’s Roll: Designing a Counterculture for Future Nomads</a>
+          </li>
+          <br>
+          <li class="menu-item">
+            <a href="urlhere"><u><mark>drawings</mark></u></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div id="bioContent" style="display: none;">
+    <h2>Bio</h2>
+    <p>Add your bio description here.</p>
+  </div>
+
+  <div id="conContent" style="display: none;">
+    <h2>Contact</h2>
+    <p>
+      <table>
+        <tbody>
+                <tr>
+              <td style="vertical-align: top;"><p>Location</p></td>
+              <td style="vertical-align: top;"><p>New York City, USA</p></td>
+            </tr>
+                <tr>
+              <td style="vertical-align: top;"><p>Email</p></td>
+              <td style="vertical-align: top;"><p>rteuman@gmail.com
+      </p></td>
+            </tr>
+                <tr>
+              <td style="vertical-align: top;"><p>Elsewhere</p></td>
+              <td style="vertical-align: top;"><p><a href="https://www.instagram.com/rteuman/" rel="noopener noreferrer" target="_blank">Instagram</a></p>
+            </tr>
+            </tbody>
+      </table>       
+    </p>
+  </div>
+
+
+  <div id="CVContent" style="display: none;">
+    <iframe width="900" height="550" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRJSegXP7HpM-hfH17B62QMazriPkw2ddj0qYVk75Bmk_AGy3AMW4dsVYo27F1e0OxjNGIWVUSrypUA/pubhtml?widget=true&amp;headers=false"></iframe>
+  </div>
+
+
+
+
+
+  <div id="dwaContent" style="display: none;">
+    <h2>DESIGN WITHOUT AUTHORITY</h2>
+    <img src="8.jpg" alt="dwacover">
+
+    <table>
+      <tbody>
+              <tr>
+            <td style="vertical-align: top;"><p><div id="post">
+
+
+
+              <div class="post-thumbnail-big">
+        </div>
+      
+          <div class="title">
+                  <h2>DESIGN WITHOUT AUTHORITY</h2>
+      
+      
+             <div class="tags">
+      
+                        <div class="entry-utility">
+             <p>2023 <br>
+              New York City<br>
+              USA<br><br>
+
+              with <br>
+              Steven Englander<br>
+              05.19-06.11, Museum of Reclaimed Urban Space, NYC, in collaboration with ABC No Rio and C-Squat<br><br>
+
+              <p><a href="http://abcnorio.org/" >ABC NO RIO</a></p>
+              <p><a href="http://www.morusnyc.org/" target="_blank" >MoRUS</a></p>
+              <p><a href="https://en.wikipedia.org/wiki/C-Squat" target="_blank" >C-Squat</a></p>
+
+            
+          
+
+             </p>
+            </div>
+            
+            </div>
+      
+          <div>
+            
+            <td style="top: 70px;"><p>    <p>Curated By Renan Teuman<br><br>
+              Featuring Work by Catherine Grau + Nathan Kensinger, Fly, George Bliss, John Szot, Kotti & Co, LOT-EK, Marwan Kaabour, Mohamed Nahleh, Nina Cooke John, Nof Nathansohn, Ross Martin and Xavier Delory.<br><br>
+              Opening: Friday May 19, 6-9Pm
+              Viewing Hours: Fri-Sun, 2-6Pm<br><br>
+              Screening: Saturday May 27 at 7:00Pm
+              DEVASTATING SOUNDWORKS Presents
+              SQUAT or ROT<br><br><br>
+              “Design Without Authority” speaks to autonomous action, and building without authority in architecture and design. The project borrows lessons from an ad hoc approach often seen in the urban environment, where an abundance of improvised decisions, broken rules, unauthorized additions and constructions participate in the realization of the built environment. Can tacit architectural knowledge become ubiquitous, entering everyday life?
+              <br><br>
+              Today, the majority of people are disconnected from the design and production of the physical artifacts that participate in their lives. Exceptions can be found in urban squatting, activist architecture, DIY manuals, and self-assembly mechanisms. The work presented in this exhibition will question the relationship between top-down, controlled visions of authorities such as architects, planners, and governments, and propose a model that embraces improvisation and unpredictability that introduces make-do in architecture.
+              <br><br>
+              “Design Without Authority” is funded in part by the New York State Council on the Arts and the New York City Department of Cultural Affairs.</p></p></td>
+          </tr>
+          </tr>
+          </tbody>
+    </table>   
+  
+   
+    <div id="container">
+
+      
+
+<div id="container-1">
+
+
+
+    
+
+  </div>
+
+
+  
+</body>
+</html>
